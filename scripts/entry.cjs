@@ -4,6 +4,11 @@ const { requireFilePath, rc, rt } = require('./utils.cjs')
 
 const modules = ((entry) => {
   return requireFilePath(entry, true, /\.ts$/)
+    .sort((a, b) => {
+      const left = a.replace(/\\/g, '/')
+      const right = b.replace(/\\/g, '/')
+      return left < right ? -1 : left > right ? 1 : 0
+    })
     .map(item => {
       const { dir, name } = path.parse(
         item.replace(`${entry}${path.sep}`, '')
