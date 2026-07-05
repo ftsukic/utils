@@ -42,8 +42,10 @@
     "build:tsc": "npm run entry && npm run build:es && npm run build:lib",
     "test": "jest",
     "coverage": "jest --coverage",
+    "changeset": "changeset",
+    "version": "changeset version",
     "prerelease": "npm run entry && npm run docs",
-    "release": "npm run build && dsc publish -t",
+    "release": "npm run entry && npm run docs && npm run build && npm publish --access public",
     "lint": "eslint \"src/**/*.{js,ts}\" --fix",
     "prepare": "husky"
   },
@@ -69,6 +71,7 @@
   },
   "homepage": "https://github.com/ftsukic/utils#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "@commitlint/cli": "^21.2.0",
     "@commitlint/config-conventional": "^21.2.0",
     "@daysnap/types": "^0.0.5",
