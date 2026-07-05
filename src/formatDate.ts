@@ -19,16 +19,14 @@ export function formatDate(
     S: date.getMilliseconds(),
   }
   if (/(y+)/.test(fmt)) {
-    // eslint-disable-next-line no-param-reassign
     fmt = fmt.replace(
       RegExp.$1,
       `${date.getFullYear()}`.substr(4 - RegExp.$1.length),
     )
   }
-  // eslint-disable-next-line no-restricted-syntax
+
   for (const k in o) {
     if (new RegExp(`(${k})`).test(fmt)) {
-      // eslint-disable-next-line no-param-reassign
       fmt = fmt.replace(
         RegExp.$1,
         RegExp.$1.length === 1 ? o[k] : `00${o[k]}`.substr(`${o[k]}`.length),

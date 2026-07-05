@@ -1,23 +1,23 @@
-[@daysnap/utils](../README.md) / [Exports](../modules.md) / EventBusCallback
+[**@ftsukic/utils**](../README.md)
 
-# Interface: EventBusCallback
+***
 
-## Callable
+[@ftsukic/utils](../globals.md) / EventBusCallback
 
-### EventBusCallback
+# Interface: EventBusCallback()
 
-▸ **EventBusCallback**(`...args`): `void`
+Defined in: [eventBus.ts:1](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/eventBus.ts#L1)
 
-#### Parameters
+> **EventBusCallback**(...`args`): `void`
 
-| Name | Type |
-| :------ | :------ |
-| `...args` | `any`[] |
+Defined in: [eventBus.ts:2](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/eventBus.ts#L2)
 
-#### Returns
+## Parameters
+
+### args
+
+...`any`[]
+
+## Returns
 
 `void`
-
-#### Defined in
-
-[eventBus.ts:2](https://github.com/daysnap/utils/blob/eebc05a/src/eventBus.ts#L2)

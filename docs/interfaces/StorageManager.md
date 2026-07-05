@@ -1,92 +1,81 @@
-[@daysnap/utils](../README.md) / [Exports](../modules.md) / StorageManager
+[**@ftsukic/utils**](../README.md)
 
-# Interface: StorageManager<T\>
+***
 
-## Type parameters
+[@ftsukic/utils](../globals.md) / StorageManager
 
-| Name | Type |
-| :------ | :------ |
-| `T` | `any` |
+# Interface: StorageManager\<T\>
 
-## Table of contents
+Defined in: [storage/factory.ts:4](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L4)
 
-### Methods
+## Type Parameters
 
-- [getItem](StorageManager.md#getitem)
-- [removeItem](StorageManager.md#removeitem)
-- [setItem](StorageManager.md#setitem)
-- [updateItem](StorageManager.md#updateitem)
+### T
+
+`T` = `any`
 
 ## Methods
 
-### getItem
+### getItem()
 
-▸ **getItem**(`defaultVal?`): `T`
+> **getItem**(`defaultVal?`): `T`
+
+Defined in: [storage/factory.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L6)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `defaultVal?` | `Partial`<`T`\> |
+##### defaultVal?
+
+`Partial`\<`T`\>
 
 #### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/factory.ts:6](https://github.com/daysnap/utils/blob/eebc05a/src/storage/factory.ts#L6)
+### removeItem()
 
-___
+> **removeItem**(): `void`
 
-### removeItem
-
-▸ **removeItem**(): `void`
+Defined in: [storage/factory.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L7)
 
 #### Returns
 
 `void`
 
-#### Defined in
+***
 
-[storage/factory.ts:7](https://github.com/daysnap/utils/blob/eebc05a/src/storage/factory.ts#L7)
+### setItem()
 
-___
+> **setItem**(`val`): `T`
 
-### setItem
-
-▸ **setItem**(`val`): `T`
+Defined in: [storage/factory.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L5)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `val` | `T` |
+##### val
+
+`T`
 
 #### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/factory.ts:5](https://github.com/daysnap/utils/blob/eebc05a/src/storage/factory.ts#L5)
+### updateItem()
 
-___
+> **updateItem**(`val`): `T`
 
-### updateItem
-
-▸ **updateItem**(`val`): `T`
+Defined in: [storage/factory.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L8)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `val` | `Partial`<`T`\> |
+##### val
+
+`Partial`\<`T`\>
 
 #### Returns
 
 `T`
-
-#### Defined in
-
-[storage/factory.ts:8](https://github.com/daysnap/utils/blob/eebc05a/src/storage/factory.ts#L8)

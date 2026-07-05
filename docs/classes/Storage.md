@@ -1,126 +1,70 @@
-[@daysnap/utils](../README.md) / [Exports](../modules.md) / Storage
+[**@ftsukic/utils**](../README.md)
 
-# Class: Storage<T\>
+***
 
-## Type parameters
+[@ftsukic/utils](../globals.md) / Storage
 
-| Name | Type |
-| :------ | :------ |
-| `T` | `any` |
+# Class: Storage\<T\>
 
-## Table of contents
+Defined in: [storage/storage.ts:18](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L18)
 
-### Constructors
+## Type Parameters
 
-- [constructor](Storage.md#constructor)
+### T
 
-### Properties
-
-- [key](Storage.md#key)
-- [options](Storage.md#options)
-- [storage](Storage.md#storage)
-- [value](Storage.md#value)
-
-### Methods
-
-- [\_debug](Storage.md#_debug)
-- [clearCache](Storage.md#clearcache)
-- [getItem](Storage.md#getitem)
-- [getItemOnce](Storage.md#getitemonce)
-- [getItemWithCache](Storage.md#getitemwithcache)
-- [removeItem](Storage.md#removeitem)
-- [setItem](Storage.md#setitem)
-- [updateItem](Storage.md#updateitem)
+`T` = `any`
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new Storage**<`T`\>(`key`, `storage`, `options?`)
+> **new Storage**\<`T`\>(`key`, `storage`, `options?`): `Storage`\<`T`\>
 
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `T` | `any` |
+Defined in: [storage/storage.ts:24](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L24)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `storage` | `StorageLike` |
-| `options?` | `Partial`<`StorageOptions`<`T`\>\> |
+##### key
 
-#### Defined in
+`string`
 
-[storage/storage.ts:24](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L24)
+##### storage
 
-## Properties
+`StorageLike`
 
-### key
+##### options?
 
-• `Private` `Readonly` **key**: `string`
+`Partial`\<`StorageOptions`\<`T`\>\>
 
-#### Defined in
+#### Returns
 
-[storage/storage.ts:19](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L19)
-
-___
-
-### options
-
-• `Private` **options**: `StorageOptions`<`T`\>
-
-#### Defined in
-
-[storage/storage.ts:22](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L22)
-
-___
-
-### storage
-
-• `Private` `Readonly` **storage**: `StorageLike`
-
-#### Defined in
-
-[storage/storage.ts:20](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L20)
-
-___
-
-### value
-
-• `Private` **value**: ``null`` \| `T` = `null`
-
-#### Defined in
-
-[storage/storage.ts:21](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L21)
+`Storage`\<`T`\>
 
 ## Methods
 
-### \_debug
+### \_debug()
 
-▸ **_debug**(`...args`): `void`
+> **\_debug**(...`args`): `void`
+
+Defined in: [storage/storage.ts:43](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L43)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...args` | `string`[] |
+##### args
+
+...`string`[]
 
 #### Returns
 
 `void`
 
-#### Defined in
+***
 
-[storage/storage.ts:43](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L43)
+### clearCache()
 
-___
+> **clearCache**(): `void`
 
-### clearCache
-
-▸ **clearCache**(): `void`
+Defined in: [storage/storage.ts:137](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L137)
 
 清除缓存
 
@@ -128,111 +72,115 @@ ___
 
 `void`
 
-#### Defined in
+***
 
-[storage/storage.ts:137](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L137)
+### getItem()
 
-___
+#### Call Signature
 
-### getItem
+> **getItem**(): `T` \| `null`
 
-▸ **getItem**(): ``null`` \| `T`
+Defined in: [storage/storage.ts:65](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L65)
 
 获取值
 
-#### Returns
+##### Returns
 
-``null`` \| `T`
+`T` \| `null`
 
-#### Defined in
+#### Call Signature
 
-[storage/storage.ts:65](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L65)
+> **getItem**(`defaultVal`): `T`
 
-▸ **getItem**(`defaultVal`): `T`
+Defined in: [storage/storage.ts:66](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L66)
 
-#### Parameters
+获取值
 
-| Name | Type |
-| :------ | :------ |
-| `defaultVal` | `DefaultVal`<`T`\> |
+##### Parameters
 
-#### Returns
+###### defaultVal
+
+`DefaultVal`\<`T`\>
+
+##### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/storage.ts:66](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L66)
+### getItemOnce()
 
-___
+#### Call Signature
 
-### getItemOnce
+> **getItemOnce**(): `T` \| `null`
 
-▸ **getItemOnce**(): ``null`` \| `T`
+Defined in: [storage/storage.ts:102](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L102)
 
 获取值后，删除存储的值
 
-#### Returns
+##### Returns
 
-``null`` \| `T`
+`T` \| `null`
 
-#### Defined in
+#### Call Signature
 
-[storage/storage.ts:102](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L102)
+> **getItemOnce**(`defaultVal`): `T`
 
-▸ **getItemOnce**(`defaultVal`): `T`
+Defined in: [storage/storage.ts:103](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L103)
 
-#### Parameters
+获取值后，删除存储的值
 
-| Name | Type |
-| :------ | :------ |
-| `defaultVal` | `DefaultVal`<`T`\> |
+##### Parameters
 
-#### Returns
+###### defaultVal
+
+`DefaultVal`\<`T`\>
+
+##### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/storage.ts:103](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L103)
+### getItemWithCache()
 
-___
+#### Call Signature
 
-### getItemWithCache
+> **getItemWithCache**(): `T` \| `null`
 
-▸ **getItemWithCache**(): ``null`` \| `T`
+Defined in: [storage/storage.ts:115](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L115)
 
 优先从缓存中获取值
 
-#### Returns
+##### Returns
 
-``null`` \| `T`
+`T` \| `null`
 
-#### Defined in
+#### Call Signature
 
-[storage/storage.ts:115](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L115)
+> **getItemWithCache**(`defaultVal`): `T`
 
-▸ **getItemWithCache**(`defaultVal`): `T`
+Defined in: [storage/storage.ts:116](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L116)
 
-#### Parameters
+优先从缓存中获取值
 
-| Name | Type |
-| :------ | :------ |
-| `defaultVal` | `DefaultVal`<`T`\> |
+##### Parameters
 
-#### Returns
+###### defaultVal
+
+`DefaultVal`\<`T`\>
+
+##### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/storage.ts:116](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L116)
+### removeItem()
 
-___
+> **removeItem**(): `void`
 
-### removeItem
-
-▸ **removeItem**(): `void`
+Defined in: [storage/storage.ts:78](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L78)
 
 删除值
 
@@ -240,50 +188,42 @@ ___
 
 `void`
 
-#### Defined in
+***
 
-[storage/storage.ts:78](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L78)
+### setItem()
 
-___
+> **setItem**(`val`): `T`
 
-### setItem
-
-▸ **setItem**(`val`): `T`
+Defined in: [storage/storage.ts:52](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L52)
 
 设置值
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `val` | `T` |
+##### val
+
+`T`
 
 #### Returns
 
 `T`
 
-#### Defined in
+***
 
-[storage/storage.ts:52](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L52)
+### updateItem()
 
-___
+> **updateItem**(`val`): `T`
 
-### updateItem
-
-▸ **updateItem**(`val`): `T`
+Defined in: [storage/storage.ts:86](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L86)
 
 更新值
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `val` | `DefaultVal`<`T`\> |
+##### val
+
+`DefaultVal`\<`T`\>
 
 #### Returns
 
 `T`
-
-#### Defined in
-
-[storage/storage.ts:86](https://github.com/daysnap/utils/blob/eebc05a/src/storage/storage.ts#L86)

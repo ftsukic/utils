@@ -11,7 +11,6 @@ export function each<T>(
 ): void
 export function each(data: any, callback: any) {
   if (Array.isArray(data)) {
-    // eslint-disable-next-line no-plusplus
     for (let index = 0, { length } = data; index < length; index++) {
       callback.call(data[index], data[index], index)
     }

@@ -20,7 +20,7 @@ export function parseQuery(v?: string, k?: string) {
   }
 
   const res: any = {}
-  // eslint-disable-next-line no-restricted-syntax
+
   for (const [key, value] of query.entries()) {
     res[key] = isJSONString(value) ? JSON.parse(value) : value
   }

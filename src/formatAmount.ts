@@ -4,7 +4,6 @@
 export function formatAmount(s: string | number, radix = 1) {
   const money = parseFloat(s?.toString())
   if (money) {
-    // eslint-disable-next-line no-param-reassign
     s = `${(money / radix).toFixed(2)}`
     const l = s.split('.')[0].split('').reverse()
     const r = s.split('.')[1]
