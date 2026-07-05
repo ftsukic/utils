@@ -32,7 +32,7 @@
     "gen": "plop --plopfile ./scripts/gen.cjs --force",
     "del": "plop --plopfile ./scripts/del.cjs --force",
     "entry": "plop --plopfile ./scripts/entry.cjs --force",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs --gitRevision main src/index.ts",
     "clean:es": "rimraf ./es",
     "clean:lib": "rimraf ./lib",
     "clean": "npm run clean:es && npm run clean:lib",

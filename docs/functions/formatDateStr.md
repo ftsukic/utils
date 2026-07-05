@@ -8,7 +8,7 @@
 
 > **formatDateStr**(`v`): `Date`
 
-Defined in: [formatDateStr.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/formatDateStr.ts#L6)
+Defined in: [formatDateStr.ts:6](https://github.com/ftsukic/utils/blob/main/src/formatDateStr.ts#L6)
 
 str 转换成 date
 fix iOS 日期时间格式如果是 - 就会报错的问题

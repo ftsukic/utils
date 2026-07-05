@@ -8,7 +8,7 @@
 
 > **typeOf**(`val`): `string`
 
-Defined in: [typeOf.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/typeOf.ts#L6)
+Defined in: [typeOf.ts:6](https://github.com/ftsukic/utils/blob/main/src/typeOf.ts#L6)
 
 判断类型
 

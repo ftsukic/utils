@@ -6,7 +6,7 @@
 
 # Interface: StorageManager\<T\>
 
-Defined in: [storage/factory.ts:4](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L4)
+Defined in: [storage/factory.ts:4](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L4)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [storage/factory.ts:4](https://github.com/ftsukic/utils/blob/499504e
 
 > **getItem**(`defaultVal?`): `T`
 
-Defined in: [storage/factory.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L6)
+Defined in: [storage/factory.ts:6](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L6)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [storage/factory.ts:6](https://github.com/ftsukic/utils/blob/499504e
 
 > **removeItem**(): `void`
 
-Defined in: [storage/factory.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L7)
+Defined in: [storage/factory.ts:7](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L7)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [storage/factory.ts:7](https://github.com/ftsukic/utils/blob/499504e
 
 > **setItem**(`val`): `T`
 
-Defined in: [storage/factory.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L5)
+Defined in: [storage/factory.ts:5](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L5)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [storage/factory.ts:5](https://github.com/ftsukic/utils/blob/499504e
 
 > **updateItem**(`val`): `T`
 
-Defined in: [storage/factory.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L8)
+Defined in: [storage/factory.ts:8](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L8)
 
 #### Parameters
 

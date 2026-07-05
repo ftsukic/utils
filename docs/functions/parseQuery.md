@@ -8,7 +8,7 @@
 
 > **parseQuery**(`v?`, `k?`): `any`
 
-Defined in: [parseQuery.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/parseQuery.ts#L8)
+Defined in: [parseQuery.ts:8](https://github.com/ftsukic/utils/blob/main/src/parseQuery.ts#L8)
 
 解析url参数
 

@@ -8,7 +8,7 @@
 
 > **merge**\<`R`\>(`target`, ...`sources`): `R`
 
-Defined in: [merge.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/merge.ts#L6)
+Defined in: [merge.ts:6](https://github.com/ftsukic/utils/blob/main/src/merge.ts#L6)
 
 深度合并对象，返回新对象
 

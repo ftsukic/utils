@@ -8,7 +8,7 @@
 
 > **formatMessage**(`message`, `keys?`): `string`
 
-Defined in: [formatMessage.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/formatMessage.ts#L11)
+Defined in: [formatMessage.ts:11](https://github.com/ftsukic/utils/blob/main/src/formatMessage.ts#L11)
 
 格式化消息
 formatMessage({ a: '123', b: { ba: '456' } }, ['a']) => '123'

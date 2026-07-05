@@ -8,7 +8,7 @@
 
 > **createWithLoading**\<`O`\>(`showLoading`, `defaultOptions?`): \<`T`\>(`fn`, `options`) => (...`params`) => `Promise`\<`Awaited`\<`ReturnType`\<`T`\>\>\>
 
-Defined in: [createWithLoading.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/createWithLoading.ts#L11)
+Defined in: [createWithLoading.ts:11](https://github.com/ftsukic/utils/blob/main/src/createWithLoading.ts#L11)
 
 loading 生成器
 const withLoading = createWithLoading(() => showLoading())

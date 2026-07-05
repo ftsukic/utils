@@ -6,7 +6,7 @@
 
 # Class: Poller
 
-Defined in: [poller.ts:13](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L13)
+Defined in: [poller.ts:13](https://github.com/ftsukic/utils/blob/main/src/poller.ts#L13)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [poller.ts:13](https://github.com/ftsukic/utils/blob/499504eb170bf2e
 
 > **new Poller**(`task`, `options?`): `Poller`
 
-Defined in: [poller.ts:23](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L23)
+Defined in: [poller.ts:23](https://github.com/ftsukic/utils/blob/main/src/poller.ts#L23)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [poller.ts:23](https://github.com/ftsukic/utils/blob/499504eb170bf2e
 
 > **get** **isRunning**(): `boolean`
 
-Defined in: [poller.ts:19](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L19)
+Defined in: [poller.ts:19](https://github.com/ftsukic/utils/blob/main/src/poller.ts#L19)
 
 ##### Returns
 
@@ -50,7 +50,7 @@ Defined in: [poller.ts:19](https://github.com/ftsukic/utils/blob/499504eb170bf2e
 
 > **start**(`forceUpdate?`): `Poller`
 
-Defined in: [poller.ts:46](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L46)
+Defined in: [poller.ts:46](https://github.com/ftsukic/utils/blob/main/src/poller.ts#L46)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [poller.ts:46](https://github.com/ftsukic/utils/blob/499504eb170bf2e
 
 > **stop**(): `Poller`
 
-Defined in: [poller.ts:41](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L41)
+Defined in: [poller.ts:41](https://github.com/ftsukic/utils/blob/main/src/poller.ts#L41)
 
 #### Returns
 

@@ -8,7 +8,7 @@
 
 > **cloneSimple**\<`T`\>(`source`): `T`
 
-Defined in: [cloneSimple.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/cloneSimple.ts#L7)
+Defined in: [cloneSimple.ts:7](https://github.com/ftsukic/utils/blob/main/src/cloneSimple.ts#L7)
 
 拷贝对象
 

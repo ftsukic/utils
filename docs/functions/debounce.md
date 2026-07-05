@@ -8,7 +8,7 @@
 
 > **debounce**\<`T`\>(`fn`, `ms`): (`this`, ...`args`) => `void`
 
-Defined in: [debounce.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/debounce.ts#L5)
+Defined in: [debounce.ts:5](https://github.com/ftsukic/utils/blob/main/src/debounce.ts#L5)
 
 防抖函数
 事件频繁触发，只会执行最后一次

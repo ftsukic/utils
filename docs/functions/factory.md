@@ -8,7 +8,7 @@
 
 > **factory**(`type`): `object`
 
-Defined in: [storage/factory.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/factory.ts#L11)
+Defined in: [storage/factory.ts:11](https://github.com/ftsukic/utils/blob/main/src/storage/factory.ts#L11)
 
 ## Parameters
 

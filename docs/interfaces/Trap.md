@@ -6,7 +6,7 @@
 
 # Interface: Trap
 
-Defined in: [trap.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L7)
+Defined in: [trap.ts:7](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L7)
 
 陷阱圈套
 主要用于缓存页面下、执行触发
@@ -17,7 +17,7 @@ Defined in: [trap.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178
 
 > **clear**: () => `void`
 
-Defined in: [trap.ts:12](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L12)
+Defined in: [trap.ts:12](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L12)
 
 #### Returns
 
@@ -29,7 +29,7 @@ Defined in: [trap.ts:12](https://github.com/ftsukic/utils/blob/499504eb170bf2e17
 
 > **create**: (`id`, `cb`) => `void`
 
-Defined in: [trap.ts:10](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L10)
+Defined in: [trap.ts:10](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L10)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [trap.ts:10](https://github.com/ftsukic/utils/blob/499504eb170bf2e17
 
 > **delete**: (`id`) => `void`
 
-Defined in: [trap.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L11)
+Defined in: [trap.ts:11](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L11)
 
 #### Parameters
 
@@ -69,7 +69,7 @@ Defined in: [trap.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e17
 
 > **list**: `Record`\<`string`, `any`\>
 
-Defined in: [trap.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L8)
+Defined in: [trap.ts:8](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L8)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: [trap.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178
 
 > **trigger**: (`id`, `data?`) => `void`
 
-Defined in: [trap.ts:9](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L9)
+Defined in: [trap.ts:9](https://github.com/ftsukic/utils/blob/main/src/trap.ts#L9)
 
 #### Parameters
 

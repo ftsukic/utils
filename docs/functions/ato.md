@@ -10,7 +10,7 @@
 
 > **ato**\<`T`, `K`\>(`options`, `labelKey`): `Record`\<`T`\[`K`\], `T`\>
 
-Defined in: [ato.ts:12](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/ato.ts#L12)
+Defined in: [ato.ts:12](https://github.com/ftsukic/utils/blob/main/src/ato.ts#L12)
 
 数组转换称对象
 const options = [
@@ -50,7 +50,7 @@ readonly `T`[]
 
 > **ato**\<`T`, `K`, `V`\>(`options`, `labelKey`, `valueKey`): `Record`\<`T`\[`K`\], `T`\[`V`\]\>
 
-Defined in: [ato.ts:16](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/ato.ts#L16)
+Defined in: [ato.ts:16](https://github.com/ftsukic/utils/blob/main/src/ato.ts#L16)
 
 数组转换称对象
 const options = [

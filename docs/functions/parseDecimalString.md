@@ -8,7 +8,7 @@
 
 > **parseDecimalString**(`val`, `options?`): `string`
 
-Defined in: [parseDecimalString.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/parseDecimalString.ts#L5)
+Defined in: [parseDecimalString.ts:5](https://github.com/ftsukic/utils/blob/main/src/parseDecimalString.ts#L5)
 
 解析小数数字
 主要用户处理用户输入，只让输入数字的情况

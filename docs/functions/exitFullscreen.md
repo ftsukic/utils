@@ -8,7 +8,7 @@
 
 > **exitFullscreen**(): `Promise`\<`any`\>
 
-Defined in: [exitFullscreen.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/exitFullscreen.ts#L6)
+Defined in: [exitFullscreen.ts:6](https://github.com/ftsukic/utils/blob/main/src/exitFullscreen.ts#L6)
 
 退出全屏
 成功则 resolve , 如果不支持退出全屏或退出失败则 rejected

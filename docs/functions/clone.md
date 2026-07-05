@@ -8,7 +8,7 @@
 
 > **clone**\<`T`\>(`source`): `T`
 
-Defined in: [clone.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/clone.ts#L8)
+Defined in: [clone.ts:8](https://github.com/ftsukic/utils/blob/main/src/clone.ts#L8)
 
 深拷贝
 

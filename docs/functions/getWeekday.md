@@ -8,7 +8,7 @@
 
 > **getWeekday**(`value?`, `prefix?`): `string`
 
-Defined in: [getWeekday.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getWeekday.ts#L6)
+Defined in: [getWeekday.ts:6](https://github.com/ftsukic/utils/blob/main/src/getWeekday.ts#L6)
 
 获取星期几
 

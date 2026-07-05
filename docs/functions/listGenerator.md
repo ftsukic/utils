@@ -10,7 +10,7 @@
 
 > **listGenerator**(`length`): `number`[]
 
-Defined in: [listGenerator.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/listGenerator.ts#L5)
+Defined in: [listGenerator.ts:5](https://github.com/ftsukic/utils/blob/main/src/listGenerator.ts#L5)
 
 list 生成器，快速生成数据
 
@@ -30,7 +30,7 @@ list 生成器，快速生成数据
 
 > **listGenerator**\<`T`\>(`length`, `fn`): `T`[]
 
-Defined in: [listGenerator.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/listGenerator.ts#L6)
+Defined in: [listGenerator.ts:6](https://github.com/ftsukic/utils/blob/main/src/listGenerator.ts#L6)
 
 list 生成器，快速生成数据
 

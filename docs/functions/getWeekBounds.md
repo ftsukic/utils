@@ -10,7 +10,7 @@
 
 > **getWeekBounds**(`value`, `sundayIsFirstDay`): \[`Date`, `Date`\]
 
-Defined in: [getWeekBounds.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getWeekBounds.ts#L7)
+Defined in: [getWeekBounds.ts:7](https://github.com/ftsukic/utils/blob/main/src/getWeekBounds.ts#L7)
 
 获取一周的开始时间和结束时间
 
@@ -32,7 +32,7 @@ Defined in: [getWeekBounds.ts:7](https://github.com/ftsukic/utils/blob/499504eb1
 
 > **getWeekBounds**(`value`, `sundayIsFirstDay`, `fmt`): \[`string`, `string`\]
 
-Defined in: [getWeekBounds.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getWeekBounds.ts#L11)
+Defined in: [getWeekBounds.ts:11](https://github.com/ftsukic/utils/blob/main/src/getWeekBounds.ts#L11)
 
 获取一周的开始时间和结束时间
 

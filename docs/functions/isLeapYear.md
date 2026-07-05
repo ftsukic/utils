@@ -8,7 +8,7 @@
 
 > **isLeapYear**(`year`): `boolean`
 
-Defined in: [isLeapYear.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/isLeapYear.ts#L5)
+Defined in: [isLeapYear.ts:5](https://github.com/ftsukic/utils/blob/main/src/isLeapYear.ts#L5)
 
 判断是否是闰年
 规则：四年一闰，百年不闰，四百年再闰

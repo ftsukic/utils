@@ -10,7 +10,7 @@
 
 > **getMonthBounds**(`value`): \[`Date`, `Date`\]
 
-Defined in: [getMonthBounds.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getMonthBounds.ts#L7)
+Defined in: [getMonthBounds.ts:7](https://github.com/ftsukic/utils/blob/main/src/getMonthBounds.ts#L7)
 
 获取月份的开始时间和结束时间
 
@@ -28,7 +28,7 @@ Defined in: [getMonthBounds.ts:7](https://github.com/ftsukic/utils/blob/499504eb
 
 > **getMonthBounds**(`value`, `fmt`): \[`string`, `string`\]
 
-Defined in: [getMonthBounds.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getMonthBounds.ts#L8)
+Defined in: [getMonthBounds.ts:8](https://github.com/ftsukic/utils/blob/main/src/getMonthBounds.ts#L8)
 
 获取月份的开始时间和结束时间
 

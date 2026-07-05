@@ -8,7 +8,7 @@
 
 > **getVideoInfo**(`src`): `Promise`\<`HTMLVideoElement`\>
 
-Defined in: [getVideoInfo.ts:4](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/getVideoInfo.ts#L4)
+Defined in: [getVideoInfo.ts:4](https://github.com/ftsukic/utils/blob/main/src/getVideoInfo.ts#L4)
 
 获取 video 信息
 

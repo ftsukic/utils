@@ -8,7 +8,7 @@
 
 > **throttleTrailing**\<`T`\>(`fn`, `ms`): (`this`, ...`args`) => `void`
 
-Defined in: [throttle.ts:24](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/throttle.ts#L24)
+Defined in: [throttle.ts:24](https://github.com/ftsukic/utils/blob/main/src/throttle.ts#L24)
 
 节流函数，定时器模式
 减少事件执行次数，有规律的执行，事件触发后延迟执行

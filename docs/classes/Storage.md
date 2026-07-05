@@ -6,7 +6,7 @@
 
 # Class: Storage\<T\>
 
-Defined in: [storage/storage.ts:18](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L18)
+Defined in: [storage/storage.ts:18](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L18)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [storage/storage.ts:18](https://github.com/ftsukic/utils/blob/499504
 
 > **new Storage**\<`T`\>(`key`, `storage`, `options?`): `Storage`\<`T`\>
 
-Defined in: [storage/storage.ts:24](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L24)
+Defined in: [storage/storage.ts:24](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L24)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [storage/storage.ts:24](https://github.com/ftsukic/utils/blob/499504
 
 > **\_debug**(...`args`): `void`
 
-Defined in: [storage/storage.ts:43](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L43)
+Defined in: [storage/storage.ts:43](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L43)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [storage/storage.ts:43](https://github.com/ftsukic/utils/blob/499504
 
 > **clearCache**(): `void`
 
-Defined in: [storage/storage.ts:137](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L137)
+Defined in: [storage/storage.ts:137](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L137)
 
 清除缓存
 
@@ -80,7 +80,7 @@ Defined in: [storage/storage.ts:137](https://github.com/ftsukic/utils/blob/49950
 
 > **getItem**(): `T` \| `null`
 
-Defined in: [storage/storage.ts:65](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L65)
+Defined in: [storage/storage.ts:65](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L65)
 
 获取值
 
@@ -92,7 +92,7 @@ Defined in: [storage/storage.ts:65](https://github.com/ftsukic/utils/blob/499504
 
 > **getItem**(`defaultVal`): `T`
 
-Defined in: [storage/storage.ts:66](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L66)
+Defined in: [storage/storage.ts:66](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L66)
 
 获取值
 
@@ -114,7 +114,7 @@ Defined in: [storage/storage.ts:66](https://github.com/ftsukic/utils/blob/499504
 
 > **getItemOnce**(): `T` \| `null`
 
-Defined in: [storage/storage.ts:102](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L102)
+Defined in: [storage/storage.ts:102](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L102)
 
 获取值后，删除存储的值
 
@@ -126,7 +126,7 @@ Defined in: [storage/storage.ts:102](https://github.com/ftsukic/utils/blob/49950
 
 > **getItemOnce**(`defaultVal`): `T`
 
-Defined in: [storage/storage.ts:103](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L103)
+Defined in: [storage/storage.ts:103](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L103)
 
 获取值后，删除存储的值
 
@@ -148,7 +148,7 @@ Defined in: [storage/storage.ts:103](https://github.com/ftsukic/utils/blob/49950
 
 > **getItemWithCache**(): `T` \| `null`
 
-Defined in: [storage/storage.ts:115](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L115)
+Defined in: [storage/storage.ts:115](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L115)
 
 优先从缓存中获取值
 
@@ -160,7 +160,7 @@ Defined in: [storage/storage.ts:115](https://github.com/ftsukic/utils/blob/49950
 
 > **getItemWithCache**(`defaultVal`): `T`
 
-Defined in: [storage/storage.ts:116](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L116)
+Defined in: [storage/storage.ts:116](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L116)
 
 优先从缓存中获取值
 
@@ -180,7 +180,7 @@ Defined in: [storage/storage.ts:116](https://github.com/ftsukic/utils/blob/49950
 
 > **removeItem**(): `void`
 
-Defined in: [storage/storage.ts:78](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L78)
+Defined in: [storage/storage.ts:78](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L78)
 
 删除值
 
@@ -194,7 +194,7 @@ Defined in: [storage/storage.ts:78](https://github.com/ftsukic/utils/blob/499504
 
 > **setItem**(`val`): `T`
 
-Defined in: [storage/storage.ts:52](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L52)
+Defined in: [storage/storage.ts:52](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L52)
 
 设置值
 
@@ -214,7 +214,7 @@ Defined in: [storage/storage.ts:52](https://github.com/ftsukic/utils/blob/499504
 
 > **updateItem**(`val`): `T`
 
-Defined in: [storage/storage.ts:86](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/storage/storage.ts#L86)
+Defined in: [storage/storage.ts:86](https://github.com/ftsukic/utils/blob/main/src/storage/storage.ts#L86)
 
 更新值
 

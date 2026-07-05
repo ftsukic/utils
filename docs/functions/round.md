@@ -8,7 +8,7 @@
 
 > **round**(`val`, `fractionDigits`): `string`
 
-Defined in: [round.ts:6](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/round.ts#L6)
+Defined in: [round.ts:6](https://github.com/ftsukic/utils/blob/main/src/round.ts#L6)
 
 四舍五入
 

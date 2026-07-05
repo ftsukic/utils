@@ -8,7 +8,7 @@
 
 > **omit**\<`T`, `K`\>(`obj`, `fields?`): `Omit`\<`T`, `K`\>
 
-Defined in: [omit.ts:4](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/omit.ts#L4)
+Defined in: [omit.ts:4](https://github.com/ftsukic/utils/blob/main/src/omit.ts#L4)
 
 排除对象里的某些属性，返回剩下的对象，浅拷贝
 

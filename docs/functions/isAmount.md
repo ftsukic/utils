@@ -8,7 +8,7 @@
 
 > **isAmount**(`val`): `boolean`
 
-Defined in: [isAmount.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/isAmount.ts#L11)
+Defined in: [isAmount.ts:11](https://github.com/ftsukic/utils/blob/main/src/isAmount.ts#L11)
 
 判断是否是合法金额
 只能是数字,小数点后只能保留两位或一位

@@ -147,6 +147,7 @@
 - [~~parseDate~~](functions/parseDate.md)
 - [parseDecimalString](functions/parseDecimalString.md)
 - [parseError](functions/parseError.md)
+- [parseNestedJSON](functions/parseNestedJSON.md)
 - [parseNumberString](functions/parseNumberString.md)
 - [parseObject](functions/parseObject.md)
 - [parsePath](functions/parsePath.md)

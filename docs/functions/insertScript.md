@@ -10,7 +10,7 @@
 
 > **insertScript**(`src`): `Promise`\<`HTMLScriptElement`\>
 
-Defined in: [insertScript.ts:4](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/insertScript.ts#L4)
+Defined in: [insertScript.ts:4](https://github.com/ftsukic/utils/blob/main/src/insertScript.ts#L4)
 
 插入外部 script 标签
 
@@ -28,7 +28,7 @@ Defined in: [insertScript.ts:4](https://github.com/ftsukic/utils/blob/499504eb17
 
 > **insertScript**(`src`, `callback`): `void`
 
-Defined in: [insertScript.ts:5](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/insertScript.ts#L5)
+Defined in: [insertScript.ts:5](https://github.com/ftsukic/utils/blob/main/src/insertScript.ts#L5)
 
 插入外部 script 标签
 

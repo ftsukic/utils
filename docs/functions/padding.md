@@ -8,7 +8,7 @@
 
 > **padding**(`message`, `before?`, `after?`): `string`
 
-Defined in: [padding.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/padding.ts#L7)
+Defined in: [padding.ts:7](https://github.com/ftsukic/utils/blob/main/src/padding.ts#L7)
 
 增添空格
 
