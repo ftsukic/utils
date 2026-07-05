@@ -11,7 +11,7 @@ export function clone<T extends Record<string, any>>(source: T): T {
   }
 
   const target = (isArray(source) ? [] : {}) as any
-  // eslint-disable-next-line no-restricted-syntax
+
   for (const key in source) {
     if (source.hasOwnProperty(key)) {
       target[key] = clone(source[key])

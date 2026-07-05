@@ -5,7 +5,6 @@
 export function debounce<T extends (...args: any[]) => any>(fn: T, ms: number) {
   let timer: any = null
 
-  // eslint-disable-next-line func-names
   return function (this: unknown, ...args: Parameters<T>) {
     clearTimeout(timer)
 

@@ -7,7 +7,7 @@ export const colorGenByHash = (str: string) => {
   const seed = 131
   const seed2 = 137
   let hash = 0
-  // eslint-disable-next-line no-param-reassign
+
   str += 'x'
   const MAX_SAFE_INTEGER = parseInt((9007199254740991 / seed2).toString(), 10)
   for (let i = 0; i < str.length; i++) {
@@ -27,24 +27,18 @@ export const colorGenByHash = (str: string) => {
   const p = 2 * L - q
   const RGBArray = [H + 1 / 3, H, H - 1 / 3].map((color) => {
     if (color < 0) {
-      // eslint-disable-next-line no-param-reassign
       color++
     }
     if (color > 1) {
-      // eslint-disable-next-line no-param-reassign
       color--
     }
     if (color < 1 / 6) {
-      // eslint-disable-next-line no-param-reassign
       color = p + (q - p) * 6 * color
     } else if (color < 0.5) {
-      // eslint-disable-next-line no-param-reassign
       color = q
     } else if (color < 2 / 3) {
-      // eslint-disable-next-line no-param-reassign
       color = p + (q - p) * 6 * (2 / 3 - color)
     } else {
-      // eslint-disable-next-line no-param-reassign
       color = p
     }
     return Math.round(color * 255)

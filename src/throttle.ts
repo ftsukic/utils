@@ -8,7 +8,6 @@ export function throttleLeading<T extends (...args: any[]) => any>(
 ) {
   let pre = 0
 
-  // eslint-disable-next-line func-names
   return function (this: unknown, ...args: Parameters<T>) {
     const now = Date.now()
     if (now - pre >= ms) {
@@ -28,7 +27,6 @@ export function throttleTrailing<T extends (...args: any[]) => any>(
 ) {
   let timer: any = null
 
-  // eslint-disable-next-line func-names
   return function (this: unknown, ...args: Parameters<T>) {
     if (timer) {
       return

@@ -1,151 +1,75 @@
-[@daysnap/utils](../README.md) / [Exports](../modules.md) / Poller
+[**@ftsukic/utils**](../README.md)
+
+***
+
+[@ftsukic/utils](../globals.md) / Poller
 
 # Class: Poller
 
-## Table of contents
-
-### Constructors
-
-- [constructor](Poller.md#constructor)
-
-### Properties
-
-- [count](Poller.md#count)
-- [currentCount](Poller.md#currentcount)
-- [options](Poller.md#options)
-- [task](Poller.md#task)
-
-### Accessors
-
-- [isRunning](Poller.md#isrunning)
-
-### Methods
-
-- [run](Poller.md#run)
-- [start](Poller.md#start)
-- [stop](Poller.md#stop)
+Defined in: [poller.ts:13](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L13)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new Poller**(`task`, `options?`)
+> **new Poller**(`task`, `options?`): `Poller`
+
+Defined in: [poller.ts:23](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L23)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `task` | [`PollerTask`](../modules.md#pollertask) |
-| `options` | `Partial`<[`PollerOptions`](../interfaces/PollerOptions.md)\> |
+##### task
 
-#### Defined in
+[`PollerTask`](../type-aliases/PollerTask.md)
 
-[poller.ts:23](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L23)
+##### options?
 
-## Properties
+`Partial`\<[`PollerOptions`](../interfaces/PollerOptions.md)\> = `{}`
 
-### count
+#### Returns
 
-• `Private` **count**: `number` = `0`
-
-#### Defined in
-
-[poller.ts:14](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L14)
-
-___
-
-### currentCount
-
-• `Private` **currentCount**: `number` = `-1`
-
-#### Defined in
-
-[poller.ts:17](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L17)
-
-___
-
-### options
-
-• `Private` **options**: [`PollerOptions`](../interfaces/PollerOptions.md)
-
-#### Defined in
-
-[poller.ts:16](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L16)
-
-___
-
-### task
-
-• `Private` **task**: [`PollerTask`](../modules.md#pollertask)
-
-#### Defined in
-
-[poller.ts:15](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L15)
+`Poller`
 
 ## Accessors
 
 ### isRunning
 
-• `get` **isRunning**(): `boolean`
+#### Get Signature
 
-#### Returns
+> **get** **isRunning**(): `boolean`
+
+Defined in: [poller.ts:19](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L19)
+
+##### Returns
 
 `boolean`
 
-#### Defined in
-
-[poller.ts:19](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L19)
-
 ## Methods
 
-### run
+### start()
 
-▸ `Private` **run**(`count`): `Promise`<`void`\>
+> **start**(`forceUpdate?`): `Poller`
 
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `count` | `number` |
-
-#### Returns
-
-`Promise`<`void`\>
-
-#### Defined in
-
-[poller.ts:28](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L28)
-
-___
-
-### start
-
-▸ **start**(`forceUpdate?`): [`Poller`](Poller.md)
+Defined in: [poller.ts:46](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L46)
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `forceUpdate` | `boolean` | `true` |
+##### forceUpdate?
+
+`boolean` = `true`
 
 #### Returns
 
-[`Poller`](Poller.md)
+`Poller`
 
-#### Defined in
+***
 
-[poller.ts:46](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L46)
+### stop()
 
-___
+> **stop**(): `Poller`
 
-### stop
-
-▸ **stop**(): [`Poller`](Poller.md)
+Defined in: [poller.ts:41](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/poller.ts#L41)
 
 #### Returns
 
-[`Poller`](Poller.md)
-
-#### Defined in
-
-[poller.ts:41](https://github.com/daysnap/utils/blob/eebc05a/src/poller.ts#L41)
+`Poller`

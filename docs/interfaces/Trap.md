@@ -1,118 +1,94 @@
-[@daysnap/utils](../README.md) / [Exports](../modules.md) / Trap
+[**@ftsukic/utils**](../README.md)
+
+***
+
+[@ftsukic/utils](../globals.md) / Trap
 
 # Interface: Trap
 
+Defined in: [trap.ts:7](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L7)
+
 陷阱圈套
 主要用于缓存页面下、执行触发
-
-## Table of contents
-
-### Properties
-
-- [clear](Trap.md#clear)
-- [create](Trap.md#create)
-- [delete](Trap.md#delete)
-- [list](Trap.md#list)
-- [trigger](Trap.md#trigger)
 
 ## Properties
 
 ### clear
 
-• **clear**: () => `void`
+> **clear**: () => `void`
 
-#### Type declaration
+Defined in: [trap.ts:12](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L12)
 
-▸ (): `void`
-
-##### Returns
+#### Returns
 
 `void`
 
-#### Defined in
-
-[trap.ts:12](https://github.com/daysnap/utils/blob/eebc05a/src/trap.ts#L12)
-
-___
+***
 
 ### create
 
-• **create**: (`id`: `string`, `cb`: (...`args`: `any`[]) => `any`) => `void`
+> **create**: (`id`, `cb`) => `void`
 
-#### Type declaration
+Defined in: [trap.ts:10](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L10)
 
-▸ (`id`, `cb`): `void`
+#### Parameters
 
-##### Parameters
+##### id
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `string` |
-| `cb` | (...`args`: `any`[]) => `any` |
+`string`
 
-##### Returns
+##### cb
+
+(...`args`) => `any`
+
+#### Returns
 
 `void`
 
-#### Defined in
-
-[trap.ts:10](https://github.com/daysnap/utils/blob/eebc05a/src/trap.ts#L10)
-
-___
+***
 
 ### delete
 
-• **delete**: (`id`: `string`) => `void`
+> **delete**: (`id`) => `void`
 
-#### Type declaration
+Defined in: [trap.ts:11](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L11)
 
-▸ (`id`): `void`
+#### Parameters
 
-##### Parameters
+##### id
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `string` |
+`string`
 
-##### Returns
+#### Returns
 
 `void`
 
-#### Defined in
-
-[trap.ts:11](https://github.com/daysnap/utils/blob/eebc05a/src/trap.ts#L11)
-
-___
+***
 
 ### list
 
-• **list**: `Record`<`string`, `any`\>
+> **list**: `Record`\<`string`, `any`\>
 
-#### Defined in
+Defined in: [trap.ts:8](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L8)
 
-[trap.ts:8](https://github.com/daysnap/utils/blob/eebc05a/src/trap.ts#L8)
-
-___
+***
 
 ### trigger
 
-• **trigger**: (`id`: `string`, `data?`: `any`) => `void`
+> **trigger**: (`id`, `data?`) => `void`
 
-#### Type declaration
+Defined in: [trap.ts:9](https://github.com/ftsukic/utils/blob/499504eb170bf2e178626d12b1bfa3fa0a89e3e2/src/trap.ts#L9)
 
-▸ (`id`, `data?`): `void`
+#### Parameters
 
-##### Parameters
+##### id
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `string` |
-| `data?` | `any` |
+`string`
 
-##### Returns
+##### data?
+
+`any`
+
+#### Returns
 
 `void`
-
-#### Defined in
-
-[trap.ts:9](https://github.com/daysnap/utils/blob/eebc05a/src/trap.ts#L9)

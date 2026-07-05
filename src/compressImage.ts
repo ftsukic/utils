@@ -11,7 +11,7 @@ export async function compressImage(image: HTMLImageElement, mw: number) {
   }
 
   const canvas = document.createElement('canvas')
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+
   const ctx = canvas.getContext('2d')!
   Object.assign(canvas, { width, height })
   ctx.drawImage(image, 0, 0, width, height)
