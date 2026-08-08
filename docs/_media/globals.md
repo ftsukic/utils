@@ -15,14 +15,21 @@
 - [EventBusCallback](interfaces/EventBusCallback.md)
 - [PollerOptions](interfaces/PollerOptions.md)
 - [StorageManager](interfaces/StorageManager.md)
+- [SwipeHandlers](interfaces/SwipeHandlers.md)
+- [SwipeListener](interfaces/SwipeListener.md)
+- [SwipeListenerEvent](interfaces/SwipeListenerEvent.md)
+- [SwipeOptions](interfaces/SwipeOptions.md)
 - [Trap](interfaces/Trap.md)
 
 ## Type Aliases
 
 - [PollerTask](type-aliases/PollerTask.md)
+- [SwipeDirection](type-aliases/SwipeDirection.md)
+- [SwipeHandlerEvent](type-aliases/SwipeHandlerEvent.md)
 
 ## Variables
 
+- [createSwipeHandler](variables/createSwipeHandler.md)
 - [eventBus](variables/eventBus.md)
 - [getCache](variables/getCache.md)
 - [getLocal](variables/getLocal.md)
@@ -49,6 +56,7 @@
 - [compressImage](functions/compressImage.md)
 - [createFactory](functions/createFactory.md)
 - [createLinearFunction](functions/createLinearFunction.md)
+- [createSwipeHandlers](functions/createSwipeHandlers.md)
 - [createTrapInstance](functions/createTrapInstance.md)
 - [createWithLoading](functions/createWithLoading.md)
 - [createWithToast](functions/createWithToast.md)
@@ -117,6 +125,7 @@
 - [isNotEmpty](functions/isNotEmpty.md)
 - [isNull](functions/isNull.md)
 - [isNumber](functions/isNumber.md)
+- [isNumeric](functions/isNumeric.md)
 - [isObject](functions/isObject.md)
 - [isPhone](functions/isPhone.md)
 - [isPromise](functions/isPromise.md)
@@ -176,6 +185,7 @@
 - [toDBC](functions/toDBC.md)
 - [toFormData](functions/toFormData.md)
 - [toPosix](functions/toPosix.md)
+- [typedKeys](functions/typedKeys.md)
 - [typeOf](functions/typeOf.md)
 - [withCache](functions/withCache.md)
 - [withPreventConsecutiveClicks](functions/withPreventConsecutiveClicks.md)
