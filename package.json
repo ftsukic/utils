@@ -5,6 +5,10 @@
   "description": "通用的工具库",
   "exports": {
     ".": {
+      "react-native": {
+        "types": "./rn/index.d.ts",
+        "default": "./rn/index.js"
+      },
       "import": {
         "types": "./es/index.d.ts",
         "default": "./es/index.js"
@@ -35,7 +39,8 @@
     "docs": "typedoc --plugin typedoc-plugin-markdown --out docs --gitRevision main src/index.ts",
     "clean:es": "rimraf ./es",
     "clean:lib": "rimraf ./lib",
-    "clean": "npm run clean:es && npm run clean:lib",
+    "clean:rn": "rimraf ./rn",
+    "clean": "npm run clean:es && npm run clean:lib && npm run clean:rn",
     "build": "npm run clean && tsup",
     "build:es": "npm run clean:es && tsc -p ./tsconfig-esm.json",
     "build:lib": "npm run clean:lib && tsc -p ./tsconfig.json",
@@ -61,6 +66,7 @@
   "files": [
     "lib",
     "es",
+    "rn",
     "docs"
   ],
   "author": "ftsukic <ftsukic@gmail.com>",

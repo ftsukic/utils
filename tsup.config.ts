@@ -24,4 +24,14 @@ export default defineConfig([
     target: 'esnext',
     format: ['cjs'],
   },
+  {
+    entry: { index: 'src/native.ts' },
+    outDir: 'rn',
+    splitting: false,
+    sourcemap: false,
+    clean: true,
+    dts: true,
+    target: 'esnext',
+    format: ['esm'],
+  },
 ])
